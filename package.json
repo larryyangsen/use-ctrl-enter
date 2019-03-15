@@ -1,6 +1,6 @@
 {
     "name": "use-ctrl-enter",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "",
     "main": "lib/index.js",
     "repository": "larryyangsen/use-ctrl-enter",

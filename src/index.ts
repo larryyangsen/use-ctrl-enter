@@ -13,6 +13,9 @@ const useCtrlEnter = () => {
             setIsCtrlEnter(false);
         };
         ref.current.addEventListener('keydown', keyDown, { passive: true });
+        return () => {
+            ref.current.removeEventListener('keydown', keyDown);
+        };
     }, []);
 
     return { ref, isCtrlEnter };
