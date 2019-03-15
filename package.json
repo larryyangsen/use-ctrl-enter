@@ -1,0 +1,24 @@
+{
+    "name": "use-ctrl-enter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lib/index.js",
+    "repository": "larryyangsen/use-ctrl-enter",
+    "files": [
+        "lib/"
+    ],
+    "types": "lib/index.d.ts",
+    "typings": "lib/index.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "larryyangsen",
+    "license": "MIT",
+    "dependencies": {
+        "@types/react": "^16.8.8",
+        "react": "^16.8.4",
+        "react-dom": "^16.8.4",
+        "typescript": "^3.3.3333"
+    }
+}
