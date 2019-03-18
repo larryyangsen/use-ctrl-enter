@@ -12,7 +12,7 @@ const useCtrlEnter = () => {
             }
             setIsCtrlEnter(false);
         };
-        ref.current.addEventListener('keydown', keyDown, { passive: true });
+        ref.current.addEventListener('keydown', keyDown);
         return () => {
             ref.current.removeEventListener('keydown', keyDown);
         };
